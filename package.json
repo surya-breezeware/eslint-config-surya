@@ -1,5 +1,5 @@
 {
-  "name": "@surya25/eslint-config-surya",
+  "name": "eslint-config-surya",
   "version": "0.0.9",
   "description": "ESLint and Prettier Config",
   "main": "index.js",
