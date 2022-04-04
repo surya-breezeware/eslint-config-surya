@@ -3,7 +3,7 @@ module.exports={
     extends:[
         'airbnb',
         'airbnb/hooks',
-        'plugin:prttier/recommended',
+        'plugin:prettier/recommended',
         './.eslintrc-base.js'
     ],
     parser: '@babel/eslint-parser',
