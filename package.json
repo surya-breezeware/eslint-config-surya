@@ -1,0 +1,62 @@
+{
+  "name": "@surya/eslint-config-surya",
+  "version": "1.0.0",
+  "description": "ESLint and Prettier Config",
+  "main": "index.js",
+  "private": false,
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "eslint",
+    "config",
+    "prettier"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surya-breezeware/eslint-config-surya.git"
+  },
+  "standard-version": {
+    "skip": {
+      "changelog": true
+    }
+  },
+  "author": "Surya <surya@breezeware.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/surya-breezeware/eslint-config-surya/issues"
+  },
+  "homepage": "https://github.com/surya-breezeware/eslint-config-surya#readme",
+  "peerDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.4.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "prettier": "^2.6"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.17.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.4.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "prettier": "^2.6.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
