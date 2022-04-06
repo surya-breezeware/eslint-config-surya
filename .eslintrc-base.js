@@ -5,55 +5,35 @@ module.exports = {
       es6: true,
       node: true
     },
+    "parser":"@babel/eslint-parser",
     settings: {
       react: {
         version: 'detect'
       }
     },
     rules: {
-      'id-length': [
-        'error',
-        { min: 2, max: Infinity, exceptions: ['t', '_'], properties: 'never' }
-      ],
-      'id-denylist': [
-        'error',
-        'err',
-        'cb',
-        'arr',
-        'acc',
-        'idx',
-        'ctx',
-        'res',
-        'val',
-        'obj',
-        'src',
-        'el',
-        'elem',
-        'req'
-      ],
-      'react/prop-types': 'off',
-      'simple-import-sort/imports': 'error',
-      'react/jsx-props-no-spreading': 0,
-      'import/prefer-default-export': 0,
-      'arrow-body-style': ['error', 'always'],
-      'react/function-component-definition': [
-        2,
-        { namedComponents: 'arrow-function' }
-      ],
-      'prettier/prettier': [
-        'error',
-        {
-          semi: false,
-          singleQuote: true,
-          printWidth: 80,
-          tabWidth: 2,
-          jsxSingleQuote: false,
-          trailingComma: 'none',
-          endOfLine: 'auto',
-          bracketSameLine: false,
-          arrowParens: 'always'
-        }
-      ]
+      "spaced-comment":"warn",
+      "react/jsx-filename-extension": "off",
+      "react/no-unescaped-entities":"off",
+      "no-unused-vars":"warn",
+      "no-undef":"warn",
+      "react/function-component-definition":"off",
+      "no-shadow":"warn",
+      "quote-props":"warn",
+      "object-shorthand":"warn",
+      "prefer-arrow-callback":"off",
+      "react/prop-types":"off",
+      "react/jsx-props-no-spreading":"off",
+      "no-unused-expressions":"off",
+      "arrow-body-style":"off",
+      "react/no-array-index-key":"warn",
+      "react/jsx-no-constructed-context-values":"off",
+      "no-use-before-define":"off",
+      "array-callback-return":"warn",
+      "no-unsafe-optional-chaining":"warn",
+      "class-methods-use-this":"off",
+      "jsx-a11y/click-events-have-key-events":"off",
+      "jsx-a11y/no-static-element-interactions":"warn"
     },
     overrides: [
       {
