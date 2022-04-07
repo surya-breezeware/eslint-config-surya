@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-surya",
-  "version": "0.0.15",
+  "version": "0.0.26",
   "description": "ESLint and Prettier Config",
   "main": "index.js",
   "private": false,
